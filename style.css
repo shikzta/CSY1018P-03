@@ -1,0 +1,82 @@
+body {
+    font-family: 'Gugi', cursive; /* Setting the font*/
+    background-color:black; /* Setting the color for background */ 
+    margin: 20px; /* Setting the margin for the whole page */
+}
+
+header {
+    font-size: 38px; /* Setting all the header font sizes */
+    color: red;
+    font-weight: bold; /* Determining the style of font (bold, italic or underline) */
+    text-align: center; 
+    margin-top: 0px; /* Creating a margin at the top of the element by 0 pixels */
+    padding-bottom: 0px; /* Setting a padding at the bottom of the element by 0 pixels */
+    border-bottom: 1px solid yellow; 
+  }
+
+  .subhead {
+    font-weight: bold; /* Determining the style of the font for the subhead */
+    text-align: center; /* Centering the text */
+    font-size: 100%; /* Allowing the size of the font to be as large as possible to fit */
+    padding-bottom: 10px; /* Creating a padding at the bottom of the element by 10 pixels */
+}
+
+nav {
+    font-size: 15px; /* Determining the size of the font for the nav text */
+    text-align: left; 
+}
+
+article {
+    display: grid; /* Instructing this element should be potrayed in a grid system */
+    grid-template-columns: 1fr 1fr 1fr; /* Sets the amount of columns and the space between by 1fr*/ 
+    margin: 0 auto; /* Creating a margin for the element that's automatically decided based on the size */
+    padding: 00px; /* Creating a surrounding 100 pixel padding */
+    grid-column-gap: 0px; 
+}
+
+ul {
+    overflow: auto; 
+    list-style-type: none; 
+    text-decoration: none; 
+  }
+
+li {
+    height: 25px; 
+    float: left; 
+    margin-right: 0px; /*Preventing a margin to the right */
+    border-right: 1px solid black;
+    padding: 0 20px; 
+    text-align: center;
+}
+
+li a {
+    text-decoration: none; 
+}
+
+li a:hover {
+    text-decoration: none;
+    color:blue; /* When the cursor hovers over each navigation, it will highlight grey */
+}
+
+
+main {
+    font-size: 14px; 
+    color: yellow;
+    font-family: "Roboto", sans-serif; 
+    line-height: 21px; /* Setting the space inbetween each line */
+    column-count: 2; /* Setting the amount of columns for this element */
+    column-gap: 20px; /* Setting the gap between each column */
+    column-rule: 1px solid #707070; /* Setting a rule for each column to have a 1 pixel solid line to separate each one */
+    text-align: center 
+}
+
+h1 {
+    text-align:left; /* Aligning the text of all h1 elements to the left */
+}
+
+footer {
+    border-top: 1px solid yellow; 
+    border-bottom: 1px solid yellow; 
+    padding-bottom: 30px; 
+    color: yellow;
+}
